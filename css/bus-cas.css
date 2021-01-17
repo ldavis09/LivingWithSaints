@@ -54,9 +54,11 @@ body {
     font-weight:100;
     line-height:4rem;}
 
-.banner {
+@media (min-width: 992px) {
+ .banner {
     margin: 0;
     height:210px;
+}
 }
 
 
