@@ -318,6 +318,8 @@ p {
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
+   display: -ms-flexbox;
+  flex-flow: row wrap;
 }
 
 h3 {
