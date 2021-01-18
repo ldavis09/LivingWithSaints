@@ -302,6 +302,9 @@ p {
   width: 100%;
   text-align: center;
   color: #000;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .border {
