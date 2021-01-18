@@ -112,14 +112,14 @@ h6 {
   color: #ddd; 
   background-color:rgba(47,23,15,.9);
   text-align:center; 
-  padding:50px 80px; 
+  padding:5%; 
   text-align:justify;
 }
 
 .emergency {
   background-color:rgba(47,23,15,.9);
   text-align:center;
-  padding:50px 80px;
+  padding:5%;
   text-align: justify;
 }
 
@@ -302,13 +302,15 @@ p {
   width: 100%;
   text-align: center;
   color: #000;
-  display: -ms-flexbox;
-  flex-flow: row wrap;
 }
 
 .border {
   font-size: 25px;
   background-color: #f7f7f7;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
 }
 
 .caption span.border {
@@ -317,8 +319,8 @@ p {
   color: #fff;
   padding: 18px;
   font-size: 25px;
-  letter-spacing: 10px;
-   display: -ms-flexbox;
+  display: -ms-flexbox;
+  display: flex;
   flex-flow: row wrap;
 }
 
@@ -386,5 +388,3 @@ h3 {
     box-shadow: 0 0 10px rgba(0, 0, 0, .05) !important;
     background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
 }
-
-
